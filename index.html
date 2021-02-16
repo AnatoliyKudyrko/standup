@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="assets/img/logo_main.jpg" type="image/x-icon">
+        <title>Stand Up Винница</title>
+    </head>
+    <body>
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Stand Up Винница</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Главная</a></li>
+                        <li class="nav__item"><a href="#word" class="nav__link">Наш девиз</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Кого мы ищем</a></li>
+                        <li class="nav__item"><a href="#send" class="nav__link">Связаться с нами</a></li>
+
+            
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img micro">
+                        <img src="assets/img/micropng.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Stand Up Винница</h1>
+                        <p class="home__description">Мы ищем амбициозных людей которые готовы развиваться в юмористическом жанре - стендап</p>
+                        <a href="#send" class="button">Принять участие</a>
+                    </div>   
+                </div>
+            </section>
+
+            <section class="word section bd-container" id="word">
+                <div class="word__container bd-grid">
+                    <div class="word__data">
+                        <h2 class="section-title-center">Не умеешь - научем!!!</h2>
+                        <p class="word__description">Мы работаем сугубо на дружеской основе и готовы помогать днем и ночью  </p>
+                    </div>
+
+                    <div class="word__img">
+                        <img src="assets/img/help2.webp" alt="">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="skills section bd-container" id="skills">
+                <h2 class="section-title">Навыки которые мы приветствуем</h2>
+                <div class="skills__container bd-grid">
+                    <div class="skills__data">
+                        <img src="assets/img/brain.png" alt="" class="skills__img">
+                        <h3 class="skills__title">Острота ума</h3>
+                        
+                    </div>
+
+                    <div class="skills__data">
+                        <img src="assets/img/speak.webp" alt="" class="skills__img">
+                        <h3 class="skills__title">Коммуникабельность</h3>
+            
+                    </div>
+
+                    <div class="skills__data">
+                        <img src="assets/img/cowaed.webp" alt="" class="skills__img cowaed">
+                        <h3 class="skills__title">Не боязнь сцены </h3>
+                    
+                    </div>
+                </div>
+            </section>
+
+            <section class="ability section bd-container">
+                <h2 class="section-title">Умение которые мы приветствуем</h2>
+
+                <div class="ability__container bd-grid">
+                    <div class="ability__content">
+                        <img src="assets/img/joke.png" alt="" class="ability__img">
+                        <h3 class="ability__title">Писать шутки</h3>
+               
+            
+                    </div>
+
+                    <div class="ability__content">
+                        <img src="assets/img/dream_up.webp" alt="" class="ability__img">
+                        <h3 class="ability__title">Фантазировать</h3>
+      
+                       
+                    </div>
+
+                    <div class="ability__content">
+                        <img src="assets/img/creative.webp" alt="" class="ability__img ">
+                        <h3 class="ability__title">Креативить</h3>
+             
+        
+                    </div>
+
+                    <div class="ability__content">
+                        <img src="assets/img/seach.webp" alt="" class="ability__img">
+                        <h3 class="ability__title">Искать инфу</h3>
+              
+                    
+                    </div>
+
+                    <div class="ability__content">
+                        <img src="assets/img/surprice.webp" alt="" class="ability__img ">
+                        <h3 class="ability__title">Уметь удивлять</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="send section" id="send">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Связь с нами</h2>
+                        <p class="send__description">Вы можете связатся с нами через форму указав имя и почту или использовать <a href="#footer">cоц. сети</a> (оптимальный вариант)</p>
+                        <form id="my-form" action="https://formspree.io/f/mqkgoqvg" method="POST" > 
+                            <div class="send__direction">
+                                <input type="text" placeholder="Имя" class="send__input" name="name">
+                                <input type="text" placeholder="Почта" class="send__input" name="mail">
+                            </div>
+                            <button class="button" id="my-form-button">Отправить</button>
+                            <p id="my-form-status" class="send__succes"></p>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="assets/img/mail.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section" id="footer">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Соц. сети</h3>
+                    <div>
+                        <a href="" class="footer__social "><i class='bx bxl-facebook-circle '></i></a>
+                        <a href="https://www.instagram.com/vn_stand_up/" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copyright">&#169; 2021 Stand Up Vinnitsa. All right reserved</p>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
